@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# SkillSynq
+
+SkillSynq is a peer-matching platform designed to connect learners and professionals for collaborative learning, group sessions, and knowledge sharing. Built with modern web technologies, it offers a responsive, interactive experience.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/305bbf98-9018-41bc-9561-829e039d1084
+**URL**: [https://peer-spark-match.vercel.app/)
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Peer-to-peer matching and messaging
+- Group learning sessions
+- Gamification hub for engagement
+- Real-time network status
+- Session summaries and progress tracking
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/305bbf98-9018-41bc-9561-829e039d1084) and start prompting.
+- [Vite](https://vitejs.dev/) – Fast frontend tooling
+- [TypeScript](https://www.typescriptlang.org/) – Typed JavaScript
+- [React](https://react.dev/) – UI library
+- [shadcn-ui](https://ui.shadcn.com/) – UI components
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [Node.js](https://nodejs.org/) & npm (recommended: use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Development
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Start the development server with hot reloading:
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```sh
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Editing the Code
 
-## What technologies are used for this project?
+You can edit this project in several ways:
 
-This project is built with:
+- **Via [Lovable](https://lovable.dev/projects/305bbf98-9018-41bc-9561-829e039d1084):** Prompt and edit directly in the Lovable interface.
+- **Locally in your IDE:** Clone the repo, make changes, and push.
+- **Directly in GitHub:** Use the web editor to modify files.
+- **GitHub Codespaces:** Launch a codespace for a cloud-based dev environment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+Deploy instantly via [Lovable](https://lovable.dev/projects/305bbf98-9018-41bc-9561-829e039d1084) by clicking Share → Publish.
 
-Simply open [Lovable](https://lovable.dev/projects/305bbf98-9018-41bc-9561-829e039d1084) and click on Share -> Publish.
+## Custom Domain
 
-## Can I connect a custom domain to my Lovable project?
+Connect a custom domain in Lovable under Project > Settings > Domains.  
+See [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide).
 
-Yes, you can!
+## Project Structure
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```
+├── public/              # Static assets
+├── src/
+│   ├── components/      # React components
+│   ├── context/         # React context providers
+│   ├── hooks/           # Custom React hooks
+│   ├── integrations/    # Third-party integrations
+│   ├── lib/             # Library utilities
+│   ├── pages/           # Page components
+│   ├── types/           # TypeScript types
+│   └── utils/           # Utility functions
+├── supabase/            # Supabase config
+├── index.html           # HTML entry point
+├── tailwind.config.ts   # Tailwind CSS config
+├── vite.config.ts       # Vite config
+└── README.md            # Project documentation
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project is for demonstration and educational purposes.
