@@ -8,6 +8,7 @@ SkillSync is a peer-matching platform designed to connect learners and professio
 <br>
 **Demo Video** : https://drive.google.com/file/d/1wZqYzu0YAhYw4heBUh4UsAlKgSqDZDpW/view?usp=sharing
 
+<video controls src="ProjectOverview.mp4" title="Title"></video>
 
 ## Features
 
