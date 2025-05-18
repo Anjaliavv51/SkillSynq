@@ -1,3 +1,4 @@
+
 import * as React from "react"
 
 import type {
@@ -5,8 +6,8 @@ import type {
   ToastProps,
 } from "@/components/ui/toast"
 
-const TOAST_LIMIT = 1
-const TOAST_REMOVE_DELAY = 1000000
+const TOAST_LIMIT = 5
+const TOAST_REMOVE_DELAY = 5000
 
 type ToasterToast = ToastProps & {
   id: string
@@ -90,8 +91,6 @@ export const reducer = (state: State, action: Action): State => {
     case "DISMISS_TOAST": {
       const { toastId } = action
 
-      // ! Side effects ! - This could be extracted into a dismissToast() action,
-      // but I'll keep it here for simplicity
       if (toastId) {
         addToRemoveQueue(toastId)
       } else {
@@ -139,6 +138,11 @@ function dispatch(action: Action) {
 
 type Toast = Omit<ToasterToast, "id">
 
+/**
+ * Toast function for displaying notifications
+ * @param props Toast properties
+ * @returns Object with id, dismiss, and update functions
+ */
 function toast({ ...props }: Toast) {
   const id = genId()
 
@@ -167,6 +171,45 @@ function toast({ ...props }: Toast) {
     update,
   }
 }
+
+/**
+ * Predefined toast variants for common notifications
+ */
+toast.success = (message: string, options: Omit<Toast, 'description'> = {}) => {
+  return toast({
+    title: "Success",
+    description: message,
+    variant: "default",
+    ...options,
+  });
+};
+
+toast.error = (message: string, options: Omit<Toast, 'description'> = {}) => {
+  return toast({
+    title: "Error",
+    description: message,
+    variant: "destructive",
+    ...options,
+  });
+};
+
+toast.warning = (message: string, options: Omit<Toast, 'description'> = {}) => {
+  return toast({
+    title: "Warning",
+    description: message,
+    variant: "default",
+    ...options,
+  });
+};
+
+toast.info = (message: string, options: Omit<Toast, 'description'> = {}) => {
+  return toast({
+    title: "Information",
+    description: message,
+    variant: "default",
+    ...options,
+  });
+};
 
 function useToast() {
   const [state, setState] = React.useState<State>(memoryState)
