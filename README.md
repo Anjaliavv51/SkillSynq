@@ -8,6 +8,8 @@ SkillSynq is a peer-matching platform designed to connect learners and professio
 
 ## Features
 
+The website includes a dedicated **Features** section that highlights the core functionalities of SkillSynq:
+
 - Peer-to-peer matching and messaging
 - Group learning sessions
 - Gamification hub for engagement
