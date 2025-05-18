@@ -1,6 +1,6 @@
-# SkillSynq
+# SkillSync
 
-SkillSynq is a peer-matching platform designed to connect learners and professionals for collaborative learning, group sessions, and knowledge sharing. Built with modern web technologies, it offers a responsive, interactive experience.
+SkillSync is a peer-matching platform designed to connect learners and professionals for collaborative learning, group sessions, and knowledge sharing. Built with modern web technologies, it offers a responsive, interactive experience.
 
 ## Project info
 
@@ -8,7 +8,7 @@ SkillSynq is a peer-matching platform designed to connect learners and professio
 
 ## Features
 
-The website includes a dedicated **Features** section that highlights the core functionalities of SkillSynq:
+The website includes a dedicated **Features** section that highlights the core functionalities of SkillSync:
 
 - Peer-to-peer matching and messaging
 - Group learning sessions
@@ -26,7 +26,7 @@ The website includes a dedicated **Features** section that highlights the core f
 
 ## AI Usage Explanation
 
-SkillSynq leverages artificial intelligence to enhance the user experience and platform functionality in the following ways:
+SkillSync leverages artificial intelligence to enhance the user experience and platform functionality in the following ways:
 
 - **Smart Peer Matching:** AI algorithms analyze user profiles, learning goals, and activity to recommend the most relevant peers for collaboration.
 - **Session Summaries:** After group sessions, AI generates concise summaries and highlights key discussion points for participants.
