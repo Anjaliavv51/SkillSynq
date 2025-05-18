@@ -22,6 +22,17 @@ SkillSynq is a peer-matching platform designed to connect learners and professio
 - [shadcn-ui](https://ui.shadcn.com/) – UI components
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
 
+## AI Usage Explanation
+
+SkillSynq leverages artificial intelligence to enhance the user experience and platform functionality in the following ways:
+
+- **Smart Peer Matching:** AI algorithms analyze user profiles, learning goals, and activity to recommend the most relevant peers for collaboration.
+- **Session Summaries:** After group sessions, AI generates concise summaries and highlights key discussion points for participants.
+- **Personalized Recommendations:** The platform uses AI to suggest learning resources, group sessions, and activities tailored to individual interests and progress.
+- **Moderation & Safety:** AI tools help monitor interactions to maintain a safe and respectful environment.
+
+All AI features are designed to assist users, not replace human judgment. User data is processed in accordance with privacy policies and is not shared with third parties for unrelated purposes.
+
 ## Getting Started
 
 ### Prerequisites
