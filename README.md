@@ -5,6 +5,9 @@ SkillSync is a peer-matching platform designed to connect learners and professio
 ## Project info
 
 **URL**: [https://peer-spark-match.vercel.app/)
+**Demo Video** : [https://drive.google.com/file/d/1wZqYzu0YAhYw4heBUh4UsAlKgSqDZDpW/view?usp=sharing)
+
+
 
 ## Features
 
